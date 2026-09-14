@@ -1,4 +1,9 @@
-```c id="p4x8nm"
+//Write a program to print the following pattern:
+//*
+//**
+//***
+//****
+//*****
 #include <stdio.h>
 
 int main()
@@ -17,4 +22,4 @@ int main()
 
     return 0;
 }
-```
+
