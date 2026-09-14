@@ -1,4 +1,4 @@
-```c id="n8q3wt"
+//Write a program to swap the first and last digit of a number.
 #include <stdio.h>
 
 int main()
@@ -31,4 +31,4 @@ int main()
 
     return 0;
 }
-```
+
