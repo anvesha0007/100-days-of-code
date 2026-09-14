@@ -1,4 +1,4 @@
-```c id="f3k8qn"
+//Write a program to reverse a given number.
 #include <stdio.h>
 
 int main()
@@ -19,4 +19,4 @@ int main()
 
     return 0;
 }
-```
+
