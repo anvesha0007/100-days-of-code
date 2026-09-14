@@ -1,4 +1,4 @@
-```c id="z6q1mt"
+//Write a program to find the LCM of two numbers.
 #include <stdio.h>
 
 int main()
@@ -28,4 +28,4 @@ int main()
 
     return 0;
 }
-```
+
