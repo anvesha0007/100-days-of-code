@@ -1,4 +1,4 @@
-```c id="n6w2rp"
+//Write a program to take a number as input and print its equivalent binary representation.
 #include <stdio.h>
 
 int main()
@@ -33,4 +33,4 @@ int main()
 
     return 0;
 }
-```
+
