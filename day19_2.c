@@ -1,4 +1,4 @@
-```c id="m2v7qx"
+//Write a program to find the sum of digits of a number.
 #include <stdio.h>
 
 int main()
@@ -19,4 +19,4 @@ int main()
 
     return 0;
 }
-```
+
