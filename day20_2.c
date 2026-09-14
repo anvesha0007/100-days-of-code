@@ -1,4 +1,4 @@
-```c id="x9m4kp"
+//Write a program to find the 1’s complement of a binary number and print it.
 #include <stdio.h>
 
 int main()
@@ -30,4 +30,4 @@ int main()
 
     return 0;
 }
-```
+
