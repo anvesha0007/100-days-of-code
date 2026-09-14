@@ -1,3 +1,4 @@
+//Write a program to print all the prime numbers from 1 to n.
 #include <stdio.h>
 
 int main()
