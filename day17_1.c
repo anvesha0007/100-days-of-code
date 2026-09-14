@@ -1,4 +1,4 @@
-```c id="r6n1vx"
+//Write a program to check if a number is an Armstrong number
 #include <stdio.h>
 
 int main()
@@ -28,4 +28,4 @@ int main()
 
     return 0;
 }
-```
+
