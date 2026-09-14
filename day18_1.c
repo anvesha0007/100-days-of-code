@@ -1,4 +1,4 @@
-```c id="v7k2mn"
+//Write a program to print all factors of a given number
 #include <stdio.h>
 
 int main()
@@ -20,4 +20,4 @@ int main()
 
     return 0;
 }
-```
+
