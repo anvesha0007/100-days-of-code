@@ -1,35 +1,43 @@
-//Write a program to check if a number is prime.
-```c
+//Delete an element from an array.
 #include <stdio.h>
 
 int main()
 {
-    int n, i, flag = 0;
+    int a[100], n, i, pos;
 
-    printf("Enter a number: ");
+    printf("Enter number of elements: ");
     scanf("%d", &n);
 
-    if (n <= 1)
+    printf("Enter array elements: ");
+    for (i = 0; i < n; i++)
     {
-        flag = 1;
+        scanf("%d", &a[i]);
+    }
+
+    printf("Enter position to delete: ");
+    scanf("%d", &pos);
+
+    if (pos < 1 || pos > n)
+    {
+        printf("Invalid position");
     }
     else
     {
-        for (i = 2; i <= n / 2; i++)
+        for (i = pos - 1; i < n - 1; i++)
         {
-            if (n % i == 0)
-            {
-                flag = 1;
-                break;
-            }
+            a[i] = a[i + 1];
+        }
+
+        n--;
+
+        printf("Array after deletion: ");
+        for (i = 0; i < n; i++)
+        {
+            printf("%d ", a[i]);
         }
     }
 
-    if (flag == 0)
-        printf("Prime number");
-    else
-        printf("Not a prime number");
-
     return 0;
 }
-```
+
+
